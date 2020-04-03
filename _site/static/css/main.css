@@ -207,7 +207,16 @@ html {
 .covid_mainTitle {
   text-align: center;
 }
+.covid_map {
+  min-width: 478px;
+  min-height: 580px;
+}
 
-@media (min-width: 768px) .container {
-  width: 100%;
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .covid_map {
+    left: -60px;
+  }
 }
