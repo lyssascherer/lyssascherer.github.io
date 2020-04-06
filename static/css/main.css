@@ -208,15 +208,15 @@ html {
   text-align: center;
 }
 .covid_map {
-  min-width: 478px;
-  min-height: 580px;
+  min-height: 500px;
+  margin: 2em;
 }
 
 @media (max-width: 768px) {
   .container {
     width: 100%;
   }
-  .covid_map {
+  /* .covid_map {
     left: -60px;
-  }
+  } */
 }
