@@ -209,7 +209,7 @@ html {
 }
 .covid_map {
   min-height: 500px;
-  margin: 2em;
+  margin: 3em;
 }
 
 @media (max-width: 768px) {
