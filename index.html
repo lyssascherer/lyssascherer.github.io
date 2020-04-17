@@ -3,13 +3,27 @@ layout: home
 ---
 
 <section id="about">
-	<div class="container">
-	  <div class="avatar">
-		<img class="img-circle" height="250" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
-	  </div>
-	  <h3>I'm <strong>{{ site.author }}</strong>, a MSc student of Data Science at RWTH Aachen University.</h3>
-	  <h3>You can read more about me <a href="{{ site.baseurl }}about.html"> here</a>.</h3>
-	  <h3>Contact me by <a href="mailto:{{ site.email }}">email</a>.</h3>
-	  {% include social.html %}
-	</div>
+  <div class="container">
+    <div class="row">
+      <div class="col h-100 d-flex justify-content-center align-items-center text-center">
+        <div>
+          <div class="avatar">
+            <img
+              class="img-circle"
+              height="250"
+              src="{{ site.baseurl }}static/img/{{ site.avatar }}"
+              alt="Responsive image"
+            />
+          </div>
+          <p>
+            I'm <strong>{{ site.author }}</strong>, a MSc student of Data Science at RWTH Aachen
+            University.
+          </p>
+          <p>You can read more about me <a href="{{ site.baseurl }}about.html"> here</a>.</p>
+          <p>Contact me by <a href="mailto:{{ site.email }}">email</a>.</p>
+          {% include social.html %}
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
