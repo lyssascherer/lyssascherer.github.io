@@ -100,11 +100,11 @@ a:hover {
 
 .Covid__container {
   text-align: center;
+  padding-top: 4em;
 }
 
 .Covid__map {
-  min-height: 500px;
-  max-width: 800px;
+  max-height: 600px;
   margin: auto;
 }
 
