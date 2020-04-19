@@ -105,6 +105,7 @@ a:hover {
 
 .Covid__map {
   max-height: 600px;
+  min-height: 500px;
   margin: auto;
 }
 
