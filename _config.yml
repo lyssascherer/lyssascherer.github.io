@@ -11,9 +11,8 @@ plugins:
 port: 3000
 safe: true
 
-
 # edit here to achieve your personal greatness
-url: lyssascherer.github.io/
+url: lyssascherer.github.io
 baseurl: /
 title: Lyssa Scherer
 author: Lyssa Scherer
