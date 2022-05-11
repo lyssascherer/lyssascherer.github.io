@@ -7,7 +7,7 @@ html,
 body {
   height: 100%;
   background-color: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   /* The html and body elements cannot have any padding or margin. */
   border-top: 3px solid var(--primary-color);
   overflow-x: hidden;
@@ -19,7 +19,7 @@ section {
 
 p,
 a {
-  line-height: 1.5rem;
+  line-height: 2rem;
   font-size: 1.2rem;
 }
 a {
